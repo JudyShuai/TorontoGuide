@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/aquarium"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:id="@+id/pointsName"
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:layout_marginLeft="15dp"
+        android:text="Points of Interest"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_toRightOf="@+id/imageView"
+        />
+
+</RelativeLayout>
