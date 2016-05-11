@@ -50,7 +50,9 @@
         android:id="@+id/login_btn"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="182dp"
-        android:layout_alignLeft="@+id/pwdText" android:layout_alignStart="@+id/pwdText"
-        android:layout_alignRight="@+id/pwdText" android:layout_alignEnd="@+id/pwdText"
+        android:layout_alignLeft="@+id/pwdText"
+        android:layout_alignStart="@+id/pwdText"
+        android:layout_alignRight="@+id/pwdText"
+        android:layout_alignEnd="@+id/pwdText"
         />
 </RelativeLayout>
